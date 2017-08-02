@@ -1,0 +1,4 @@
+- name: Emacs cask
+  homebrew_cask:
+    name: emacs
+    state: present
