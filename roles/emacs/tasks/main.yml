@@ -2,3 +2,10 @@
   homebrew_cask:
     name: emacs
     state: present
+
+- name: GNU Global
+  homebrew:
+    # needed for ggtags
+    install_options: with-ctags
+    name: global
+    state: present
