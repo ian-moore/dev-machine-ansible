@@ -1,0 +1,4 @@
+- name: Install GPG with brew
+  homebrew:
+    name: gpg
+    state: present
