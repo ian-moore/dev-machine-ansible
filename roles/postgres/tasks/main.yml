@@ -5,7 +5,7 @@
     state: present
 
 - name: configure postgres to launch on startup
-  shell: ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents/ && launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+  shell: brew services start postgresql
 
 - name: check to see if there is a database
   shell: psql
