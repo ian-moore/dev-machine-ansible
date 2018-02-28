@@ -1,0 +1,4 @@
+- name: Install pass, the UNIX password manager (https://www.passwordstore.org/)
+  homebrew:
+    name: pass
+    state: present
