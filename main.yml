@@ -16,7 +16,6 @@
     - postgres
     - redis
     - postman
-    - emacs
     - gpg
     - pass
     - node
